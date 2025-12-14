@@ -1,4 +1,4 @@
-<!-- Food Freshness Analyzer (Synthetic Data Project) -->
+ Food Freshness Analyzer (Synthetic Data Project) 
  Project Overview
 
 The Food Freshness Analyzer is a machine learning project that predicts whether stored food is Fresh, Stale, or Spoiled using synthetically generated environmental data. No Juypter Notebooks.
@@ -6,7 +6,7 @@ The Food Freshness Analyzer is a machine learning project that predicts whether 
 The project simulates real-world food storage conditions and demonstrates an end-to-end machine learning pipeline, including data generation, analysis, visualization, model training, and evaluation.
 
 
- <!-- Project Goal -->
+  Project Goal 
 
 Predict food freshness based on environmental storage conditions:
 
@@ -19,7 +19,7 @@ Storage time
 Gas concentration (proxy for spoilage/microbial activity)
 
 
-<!-- Why Synthetic Data? -->
+ Why Synthetic Data? 
 
 Real food freshness datasets are often limited, inconsistent, or proprietary.
 To address this, this project uses synthetic data generated with controlled logic to realistically model food degradation over time.
@@ -34,7 +34,7 @@ Balanced freshness classes
 
 Ethical and privacy-safe data usage
 
-<!-- Dataset Description (Synthetic) -->
+ Dataset Description (Synthetic) 
 
 Each data point represents a stored food item under simulated conditions.
 
@@ -56,7 +56,7 @@ Spoiled: Extended storage time
 
 Labels are synthetic and used to validate the ML pipeline rather than real-world deployment accuracy.
 
-<!-- Tech Stack -->
+ Tech Stack 
 
 Language: Python
 
@@ -66,7 +66,7 @@ Model: Random Forest Classifier
 
 Environment: Jupyter Notebook
 
-<!-- Project Workflow -->
+ Project Workflow 
 
 Synthetic data generation
 
@@ -84,7 +84,7 @@ Model evaluation
 
 Feature importance visualization
 
-<!-- Machine Learning Model -->
+ Machine Learning Model 
 
 Algorithm: Random Forest Classifier
 
@@ -98,7 +98,7 @@ Classification Report
 
 Feature importance is analyzed to understand which storage conditions most influence freshness predictions.
 
-<!-- Visualizations -->
+ Visualizations 
 
 Temperature vs Gas concentration by freshness label
 
@@ -106,7 +106,8 @@ Storage time distribution across freshness levels
 
 Feature importance bar chart
 
-<!-- Project Structure -->
+ Project Structure 
+
 food-freshness-analyzer/
 │
 ├── data/
@@ -118,14 +119,15 @@ food-freshness-analyzer/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-<!-- How to Run -->
+
+ How to Run 
 
 git clone https://github.com/katelynn3/food-freshness-analyzer.git
 cd food-freshness-analyzer
 pip install -r requirements.txt
 python src/food_freshness_analyzer.py
 
-<!-- Future Improvements -->
+ Future Improvements 
 
 Incorporate real sensor-based datasets
 
@@ -135,16 +137,16 @@ Deploy as a web application (Streamlit or Flask)
 
 Integrate IoT sensor simulations
 
-<!-- Educational Purpose -->
+ Educational Purpose 
 
 This project was developed as part of a Computer Science & Machine Learning portfolio to demonstrate practical ML skills when real-world datasets are unavailable.
 
-<!-- Author -->
+ Author 
 
 Katelynn Comlan-Cataria
 B.S. Computer Science — WGU
 Aspiring Machine Learning Engineer / Data Scientist
 
-<!-- License -->
+ License 
 
 This project is open-source and intended for educational use.
